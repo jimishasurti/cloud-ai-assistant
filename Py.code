@@ -1,6 +1,6 @@
-from openai import AzureOpenAI
+from openai import groq
 
-client = AzureOpenAI()
+client = groq()
 
 prompt = """
 You are an Azure cloud engineer.
@@ -11,8 +11,8 @@ response = client.chat.completions.create(
     model="gpt-4",
     messages=[
         {"role": "system", "content": prompt},
-        {"role": "user", "content": "Create a VM in Azure"}
+        {"role": "user", "content": "Create a VM"}
     ]
-)
+
 
 print(response.choices[0].message.content)
