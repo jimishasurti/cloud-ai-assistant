@@ -143,17 +143,6 @@ python src/app.py
 
 ---
 
-## 🌱 Future Enhancements
-
-* Web UI using Streamlit
-* Chat history and memory
-* Azure OpenAI integration
-* Deployment on Azure VM
-* Docker containerization
-* Logging and monitoring
-
----
-
 ## 👩‍💻 Author: Jimisha Surti
 Cloud & Generative AI Enthusiast
 
