@@ -154,9 +154,7 @@ python src/app.py
 
 ---
 
-## 👩‍💻 Author
-
-**Jimishaa**
+## 👩‍💻 Author: Jimisha Surti
 Cloud & Generative AI Enthusiast
 
 ---
