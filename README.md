@@ -77,5 +77,88 @@ cloud-ai-assistant/
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://githu
+git clone https://github.com/jimishasurti/cloud-ai-assistant.git
+cd cloud-ai-assistant
 ```
+
+---
+
+### 2️⃣ Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+Activate:
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 4️⃣ Configure API Key
+
+Create a `.env` file:
+
+```
+GROQ_API_KEY=your_api_key_here
+```
+
+> ⚠️ The `.env` file is ignored by Git and never pushed to GitHub.
+
+---
+
+### 5️⃣ Run the Application
+
+```bash
+python src/app.py
+```
+
+---
+
+## 💬 Example Prompts
+
+* `Create an Azure VM with 2 CPUs and 8GB RAM`
+* `Explain Azure VNET vs Subnet`
+* `What is the difference between IaaS and PaaS?`
+* `How to troubleshoot Azure VM connectivity issues`
+* `Generate Azure CLI for storage account`
+
+---
+
+## 🔐 Security Best Practices
+
+* API keys stored using environment variables
+* `.env` excluded via `.gitignore`
+* No secrets committed to repository
+
+---
+
+## 🌱 Future Enhancements
+
+* Web UI using Streamlit
+* Chat history and memory
+* Azure OpenAI integration
+* Deployment on Azure VM
+* Docker containerization
+* Logging and monitoring
+
+---
+
+## 👩‍💻 Author
+
+**Jimishaa**
+Cloud & Generative AI Enthusiast
+
+---
+
+⭐ If you find this project useful, feel free to star the repository!
