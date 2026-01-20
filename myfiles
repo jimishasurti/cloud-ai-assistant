@@ -1,0 +1,8 @@
+mkdir src
+touch src/app.py
+touch src/prompt.py
+touch src/ai_client.py
+touch requirements.txt
+touch README.md
+touch .env
+touch .gitignore

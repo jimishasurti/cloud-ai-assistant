@@ -1,0 +1,19 @@
+# hello.py
+from openai import AzureOpenAI
+
+client = AzureOpenAI()
+
+prompt = """
+You are an Azure cloud engineer.
+Generate Azure CLI commands clearly.
+"""
+
+response = client.chat.completions.create(
+    model="gpt-4",
+    messages=[
+        {"role": "system", "content": prompt},
+        {"role": "user", "content": "Create a VM in Azure"}
+    ]
+)
+
+print(response.choices[0].message.content)
