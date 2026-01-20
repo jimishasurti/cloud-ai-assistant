@@ -1,4 +1,4 @@
-from openai import groq
+import groq
 
 client = groq()
 
